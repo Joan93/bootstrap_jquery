@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+
+<title>Beeter</title>
+
+</head>
+<body>
+
+
+<!-- NAVBAR -->
+
+	<form action="" id="stings-form" class="form-horizontal">
+		<div class="avbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Stings</a>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+<!-- GET AN STING -->
+
+		<div>
+			<div class="bs-callout bs-callout-info">
+				<h4>Get Sting</h4>
+				<div class="input-group input-group-sm">
+					<span class="input-group-addon">sting id: </span> <input
+						type="text" class="form-control" id="stingid">
+				</div>
+				<button type="button" class="btn btn-info" id="button_get_sting">Get
+					Sting</button>
+				<div class="container">
+					<span id="sting_result"></span>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+<!-- DELETE AN STING -->
+
+		<div>
+			<div class="bs-callout bs-callout-info">
+				<h4>Delete Sting</h4>
+
+				<div class="input-group input-group-sm">
+					<span class="input-group-addon">sting id: </span> <input
+						type="text" class="form-control" id="stingid2">
+				</div>
+				<button type="button" class="btn btn-info" id="button_delete_sting">Delete
+					Sting</button>
+				<div class="container">
+					<span id="delete_result"></span>
+				</div>
+
+			</div>
+		</div>
+
+
+
+
+
+
+
+<!-- CREATE AN STING -->
+
+
+		<div>
+			<div class="bs-callout bs-callout-info">
+				<h4>Create Sting</h4>
+
+				<div class="input-group input-group-sm">
+					<span class="input-group-addon">subject</span> <input type="text"
+						class="form-control" id="subject">
+				</div>
+				<div class="input-group input-group-sm">
+					<span class="input-group-addon">content</span>
+					<textarea class="form-control" rows="3" id="content"></textarea>
+				</div>
+				<button type="button" class="btn btn-info" id="button_post_sting">Create
+					Sting</button>
+				<div class="container">
+					<span id="post_result"></span>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+	<!-- UPDATE AN STING -->
+
+
+		<div class="input-group">
+			<div class="bs-callout bs-callout-info">
+				<h4>Update Sting</h4>
+
+				<div class="input-group input-group-sm">
+					<span class="input-group-addon">sting id</span> <input type="text"
+						class="form-control" id="stingid1">
+				</div>
+
+				<div class="input-group input-group-sm">
+					<button type="button" class="btn btn-info" id="button_get_sting1">Get
+						Sting</button>
+				</div>
+				<div class="input-group input-group-sm">
+					<span class="input-group-addon">username</span>
+					<textarea class="form-control" id="username"></textarea>
+				</div>
+				<div class="input-group input-group-sm">
+					<span class="input-group-addon">subject</span>
+					<textarea class="form-control" id="subject1"></textarea>
+				</div>
+				<div class="input-group input-group-sm">
+					<span class="input-group-addon">content</span>
+					<textarea class="form-control" rows="3" id="content1"></textarea>
+				</div>
+				<button type="button" class="btn btn-info" id="button_update_stings">Update
+					Sting</button>
+				<span id="update_result"></span>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+	<!-- GET VARIOUS STINGS -->
+
+		<div class="input-group">
+			<div class="bs-callout bs-callout-info">
+				<h4>Get Stings</h4>
+				<p>
+					<button type="button" class="btn btn-info" id="button_get_stings">Get
+						Stings</button>
+				</p>
+				<span id="stings_result"></span>
+			</div>
+		</div>
+	</form>
+
+
+
+	<!-- SCRIPTS -->
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap-theme.min.css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
+<link href="beeter.css" rel="stylesheet">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/beeter.js"></script>
+	
+</body>
+</html>
